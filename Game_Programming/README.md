@@ -3,7 +3,7 @@
 <table style="border:1px; text-align:center;">
   <th colspan="2"> 게임 프로그래밍 과제 스크린샷 </th>
   <tr>
-    <td width="1000">과제1</td>
+    <td width="100">과제1</td>
     <td><img src="HW1\hw1.png"></td>
   </tr>
   <tr>
