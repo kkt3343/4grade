@@ -9,3 +9,5 @@
   <td>1</td>
   </tr>
 </table>
+
+<img src="HW2\hw2.png"></img>
