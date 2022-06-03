@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <td>과제3</td>
-    <td><img src="HW3\hw3.png"></td>
+    <td><img src="HW3\hw3.png" width="200"></td>
   </tr>
   <tr>
     <td>과제4</td>
