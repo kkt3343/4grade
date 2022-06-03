@@ -6,10 +6,10 @@
     <td>과제1</td><td>과제2</td><td>과제3</td><td>과제4</td>
   </tr>
   <tr>
-  <td>1</td>
+    <td><img src="HW1\hw1.png"></td>
     <td><img src="HW2\hw2.png"></td>
-  <td>1</td>
-  <td>1</td>
+    <td><img src="HW3\hw3.png"></td>
+    <td>1</td>
   </tr>
 </table>
 
