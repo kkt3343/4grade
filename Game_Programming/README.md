@@ -4,11 +4,11 @@
   <th colspan="2"> 게임 프로그래밍 과제 스크린샷 </th>
   <tr>
     <td>과제1</td>
-    <td><img src="HW1\hw1.png"></td>
+    <td><img src="HW1\hw1.png" width="1000"></td>
   </tr>
   <tr>
     <td>과제2</td>
-    <td><img src="HW2\hw2.png"></td>
+    <td><img src="HW2\hw2.png" width="1000"></td>
   </tr>
   <tr>
     <td>과제3</td>
