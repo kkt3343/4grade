@@ -8,7 +8,7 @@
   </tr>
   <tr>
     <td>과제2</td>
-    <td><img src="HW2\hw2.png"></td>
+    <td><img src="HW2\hw2.png" style="margin-left: auto; margin-right: auto; display: block;"></td>
   </tr>
   <tr>
     <td>과제3</td>
