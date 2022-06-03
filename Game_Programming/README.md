@@ -16,7 +16,7 @@
   </tr>
   <tr>
     <td>과제4</td>
-    <td>1</td>
+    <td><div style="text-align : center;"><img src="HW4\hw4.png" width="1000"></div></td>
   </tr>
 </table>
 
