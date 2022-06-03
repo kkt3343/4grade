@@ -10,4 +10,4 @@
   </tr>
 </table>
 
-<img scr="HW2\hw2.png">
+<img src="HW2\hw2.png"></img>
