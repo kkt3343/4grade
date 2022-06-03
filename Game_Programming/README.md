@@ -1,9 +1,19 @@
 <h3>게임프로그래밍 과제 저장</h3> <hr>
 
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table, td, th {
+    border-collapse : collapse;
+    border : 1px solid black;
+};
+
 <table border="1">
   <th colspan="2"> 게임 프로그래밍 과제 스크린샷 </th>
   <tr>
-    <td width="50">과제1</td>
+    <td>과제1</td>
     <td><img src="HW1\hw1.png"></td>
   </tr>
   <tr>
