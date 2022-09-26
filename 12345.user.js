@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         New Userscript
+// @name         loawa_ad_del
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
