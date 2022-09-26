@@ -14,6 +14,10 @@
     function A(){
         var c = document.getElementsByClassName('row m-0 p-0 justify-content-center'); var g = c.length;
         for(var i=0;i<g;i++){c[0].remove()};
+        
+        const t = '/html/body/div[2]/main/div[1]/div[1]';
+        var t2 = document.evaluate(t, document, null, XPathResult.FIRST_ORDERED_NODE_TYPE,null);
+        t2.singleNodeValue.remove();
     }
     setTimeout(A, 200);
     // Your code here...
