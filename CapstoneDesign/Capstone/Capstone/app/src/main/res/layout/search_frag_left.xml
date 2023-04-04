@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="국산차"
+        android:textSize="18sp"
+        android:id="@+id/search_L_title"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"/>
+
+    <TextView
+        android:id="@+id/search_nouse1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="제조사"
+        android:textSize="15sp"
+        android:layout_weight="5"/>
+
+    <Spinner
+        android:id="@+id/spinner_manufacturer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/search_nouse2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="모델명" />
+
+    <Spinner
+        android:visibility="invisible"
+        android:id="@+id/spinner_modelname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <TextView
+        android:id="@+id/search_nouse3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="세부모델"
+        android:layout_weight="5"/>
+
+    <Spinner
+        android:id="@+id/spinner_modelname_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <Button
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/btn_normal"
+        android:id="@+id/search_complete"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:text="국산차량 검색하기" />
+
+    <Button
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/btn_normal"
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="초기화" />
+
+    <ScrollView
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="23">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <ListView
+                android:id="@+id/search_listview1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="5" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

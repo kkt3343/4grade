@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout_search_result"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="103"> <!-- histroy_text 와 avgtext1 뺌-->
+
+    <TextView
+        android:id="@+id/search_result_activty_show_car_count"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/view_number_spinner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+
+        <Spinner
+            android:id="@+id/view_sort_spinner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/borderline"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_line" />
+
+    <ScrollView
+        android:id="@+id/search_result_scrollview"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="79"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/search_result_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="7"
+        android:gravity="center">
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_normal"
+            android:id="@+id/search_result_bottom1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="이전" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_normal"
+            android:id="@+id/search_result_bottom2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_normal"
+            android:id="@+id/search_result_bottom3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_normal"
+            android:id="@+id/search_result_bottom4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_normal"
+            android:id="@+id/search_result_bottom5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_normal"
+            android:id="@+id/search_result_bottom6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="5" />
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_margin="2dp"
+            android:background="@drawable/btn_normal"
+            android:id="@+id/search_result_bottom7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="다음" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_margin="3dp"
+            android:id="@+id/domestic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="국산"
+            android:drawableLeft="@drawable/icon"
+            android:paddingLeft="20dp"
+            android:background="@drawable/btn_domestic"/>
+
+        <Button
+            android:layout_margin="3dp"
+            android:id="@+id/overseas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="수입"
+            android:drawableLeft="@drawable/icon"
+            android:paddingLeft="20dp"
+            android:background="@drawable/btn_overseas"/>
+    </LinearLayout>
+
+    <TextView
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/search_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="국산 \u0026 수입 버튼을 클릭 해 주세요." />
+
+    <FrameLayout
+        android:id="@+id/search_main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"/>
+
+</LinearLayout>

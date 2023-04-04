@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="110">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/search_result_infomation_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar_color"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="100">
+
+        <LinearLayout
+            android:weightSum="100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/infomation_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"/>
+
+            <TextView
+                android:layout_margin="8dp"
+                android:id="@+id/infomation_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="차량이름" />
+
+            <TextView
+                android:layout_margin="8dp"
+                android:id="@+id/infomation_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="연식_KM" />
+
+            <TextView
+                android:layout_margin="8dp"
+                android:id="@+id/infomation_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="가격" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/infomation_4"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="세부 정보" />
+
+            <TableLayout
+                android:weightSum="12"
+                android:layout_weight="60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:id="@+id/nouse1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="제조사"
+                        android:padding="5dp"/>
+
+                    <TextView
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:padding="5dp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/nouse2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="모델명" />
+
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/nouse3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="세부 모델명" />
+
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/nouse4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="차량번호" />
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/nouse5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="가격" />
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/nouse6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="주행거리" />
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/nouse7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="연식" />
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/nouse9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="사이트" />
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use9"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/nouse10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="색상" />
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/nouse11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="연료" />
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use11"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight = "1"
+                    android:background="@color/margin_color"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/nouse12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_weight="1"
+                        android:background="#BDBDBD"
+                        android:gravity="center"
+                        android:text="배기량" />
+                    <TextView
+                        android:padding="5dp"
+                        android:background="@color/white_sri"
+                        android:gravity="center"
+                        android:layout_weight="3"
+                        android:id="@+id/use12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@drawable/btn_normal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/search_result_infomation_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="사이트 바로가기" />
+
+        <Button
+            android:background="@drawable/btn_normal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/search_result_infomation_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="다른 매물과 비교하기" />
+    </LinearLayout>
+
+</LinearLayout>

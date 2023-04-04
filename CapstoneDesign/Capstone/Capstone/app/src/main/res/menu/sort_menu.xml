@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:icon="@drawable/sort"
+        android:id="@+id/sort_menu"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/enroll_sort"
+            android:title="최근 등록순"
+            android:checked="true"/>
+        <item
+            android:id="@+id/price_sort_desc"
+            android:title="높은 가격순" />
+        <item
+            android:id="@+id/price_sort_asc"
+            android:title="낮은 가격순 " />
+        <item
+            android:id="@+id/distance_sort_desc"
+            android:title="높은 주행거리순" />
+        <item
+            android:id="@+id/distance_sort_asc"
+            android:title="낮은 주행거리순" />
+    </group>
+</menu>

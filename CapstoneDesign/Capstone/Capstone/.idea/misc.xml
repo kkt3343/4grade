@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable-v24/border.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable-v24/border_bottom.xml" value="0.2265625" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/background_splash.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/border2.xml" value="0.29074074074074074" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/border3.xml" value="0.287962962962963" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/border_line.xml" value="0.2265625" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/btn_domestic.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/btn_domestic_click.xml" value="0.378125" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/btn_normal.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/btn_normal_click.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/btn_overseas.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/btn_overseas_click.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/error_image.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/ic_settings_black_24dp.xml" value="0.28307692307692306" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/icon.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/items.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/progress_bg.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/progress_image.xml" value="0.24722222222222223" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/drawable/table_border.xml" value="0.38229166666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/font/font.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/activity_splash.xml" value="0.2798913043478261" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/border2.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/compare.xml" value="0.33" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/compare_2222.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/detail.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/dialog_progress.xml" value="0.1" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/favorite.xml" value="0.33" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/history.xml" value="0.3161231884057971" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/home.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/login.xml" value="0.33" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/menu.xml" value="0.35733695652173914" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/notice.xml" value="0.33" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/register.xml" value="0.29846014492753625" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/search.xml" value="0.29257246376811596" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/search_frag_left.xml" value="0.36594202898550726" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/search_frag_right.xml" value="0.1953125" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/search_result.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/search_result_infomation.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/layout/search_result_keyword.xml" value="0.29635416666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/menu/actionbar_actions.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/menu/actions_menu.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/menu/bottom_menu.xml" value="0.29635416666666664" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/menu/sort_menu.xml" value="0.33" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/KT/AndroidStudioProjects/Capstone/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.24444444444444444" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

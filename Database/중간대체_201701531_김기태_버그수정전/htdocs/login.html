@@ -1,0 +1,70 @@
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>아이템 강화 하기</title>
+	<style>
+		body {
+			background-image: url('back.jpg');
+			background-repeat: no-repeat;
+		}
+		p {
+			padding: 30px;
+			text-align: center;	
+			background-color: #ffffff;
+			background-color: rgba( 255, 255, 255, 0.5 );
+		}
+		div {
+			background-color: rgba( 255, 255, 255, 0.7 );
+			padding-top: 0px;
+			padding-right: 30px;
+			padding-bottom: 10px;
+			padding-left: 80px;
+		}
+		table,td {
+			border: 1px solid #333;
+		}
+		thead,tfoot {
+			background-color: #333;
+			color: #fff;
+		}
+	</style>
+	<script>
+		function login_check(){
+			var inputid = document.getElementById('formid').value;
+			var inputpw = document.getElementById('formpw').value;
+			if(inputid == "" || inputpw == ""){
+				alert("아이디나 비밀번호를 입력해주세요.");
+			}else{
+				document.login.submit();
+			}
+		}
+	</script>
+	<link rel="icon" href="mococo.png">
+</head>	
+
+<body>
+	<div><h2> 로그인 하기 </h2><hr></div>
+	<div>
+	<table>
+		<th colspan="2">로그인</th>
+		<tr style="text-align: center;">
+			<td colspan="2">
+			<form name="login" action="login_ok.php" method="post">
+			아이디 : <br><input type="text" name="id" id="formid"><br>
+			비밀번호 : <br><input type="text" name="pw" id="formpw"><br>
+			<input type="button" onclick="login_check()" value="로그인하기">
+			</form>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">
+				<button onClick="location.href='register.php'">회원가입</button>
+			</td>
+			<td style="text-align: center;">
+				<button onClick="location.href='account_set.php'">회원관리</button>
+			</td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>

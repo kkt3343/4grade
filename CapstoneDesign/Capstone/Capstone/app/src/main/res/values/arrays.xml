@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="manufacturer">
+        <item>현대</item>
+        <item>제네시스</item>
+        <item>기아</item>
+        <item>쉐보레(GM대우)</item>
+        <item>르노삼성</item>
+        <item>쌍용</item>
+        <item>기타제조사</item>
+    </string-array>
+
+    <string-array name="date_month">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+</resources>

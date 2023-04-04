@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/first_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="메인화면"
+        />
+    <item
+        android:id="@+id/second_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/searchlist"
+        android:title="검색기록"/>
+
+    <item
+        android:id="@+id/third_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/like"
+        android:title="찜목록">
+    </item>
+
+    <item
+        android:id="@+id/fourth_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/noti"
+        android:title="알림">
+    </item>
+
+    <item
+        android:id="@+id/fifth_tab"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/menu"
+        android:title="메뉴">
+    </item>
+</menu>
